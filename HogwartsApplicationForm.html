@@ -1,0 +1,77 @@
+<!DOCTYPE html>     
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+      body
+      {
+        color: aliceblue;
+        background-color: rgba(14, 11, 11, 0.979);
+      }
+
+    </style>
+   
+</head>
+<body>  
+   
+    <h2>Application Form</h2>
+    <form action="backend.py">
+     
+      <!-- Form Starts Here -->
+      <!-- Id is always unique for every element and Class is used to give common style in css to all elements belong to single class -->
+
+      <div id="mainbox" class="redBg blackBorder">
+        <label for="name">Name of Wizard/Witch: </label> <input type = "text" name = "myName" id="name"> 
+     </div>
+     <br>
+     <div>
+      <label for="gender">Gender: </label> Male <input type="radio" name="myGender" > Female <input type="radio" id="gender" name="myGender"> Transgender <input type="radio" name="myGender" >
+     </div>
+      <br>
+     <div>
+      <label for="DOB">Date of Birth: </label> <input type="date" id="DOB" >
+     </div>
+     <br>
+     <div>
+      <label for="mail">OwlMail:</label> <input type="email" id="mail">
+     </div>
+     <br>
+     <div>
+      <label for="age">Are you 11 years old?</label> <input type = "checkbox" name="myEligibility" id="age"> 
+     </div>
+     <br>
+     <div>
+      <label for="family">Blood: </label> Pure Blood <input type="radio" name="myFamilyType" > Half-Blood <input type="radio" name="myFamilyType" > First-Wizard/Witch in Blood-Line <input type="radio" name="myFamilyType" id="family" >
+     </div>
+     <p>(Note: Refering First Wizard/Witch in Blood-Line as Mud-Blood is Strictly Prohibited and penalised under Law of Ministry of Magic)</p>
+     <br>
+
+     <div>
+     <label for="pet">Pet: </label> 
+     <select name="myPet" id="pet">
+     <option value="T"  selected >Toad</option>
+     <option value="C" >Cat</option>
+     <option value="O" >Owl</option>
+     </select>
+     </div>
+
+     <br>
+     <div>
+      <label for="baggage">No. of Trunks you will be carrying on Hogwarts Express:</label> <input type="number" name="myBaggages" id="baggage">
+     </div>
+     <br>
+     <div>
+         Write about yourself: <br> <textarea name="myText" cols="50" rows="8"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="Submit Form">
+          <input type="reset" value="Reset Form">
+        </div>
+        <br> 
+    </form>
+</body>
+</html>

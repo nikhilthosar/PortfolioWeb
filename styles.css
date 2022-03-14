@@ -1,0 +1,47 @@
+
+ body{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-weight: 200;
+    background-image: url("img/hero.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ 
+  
+  .start{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+
+ }  
+
+ .name{
+    text-align: left;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+ }  
+
+ .info{
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Source Code Pro', monospace;
+   
+ }  
+ .devinfo
+ {
+     padding-top: 160px;
+     margin-left: 18px;
+     vertical-align: middle;
+ }
+
+ p{
+        
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20pxpx;
+ }
+
