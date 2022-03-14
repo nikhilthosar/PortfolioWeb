@@ -44,4 +44,9 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 20pxpx;
  }
-
+ 
+  .media{
+   text-align: left;
+   font-size: 17px;
+   font-family: 'Source Code Pro', monospace;
+}
