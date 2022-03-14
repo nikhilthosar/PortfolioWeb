@@ -1,0 +1,62 @@
+<!DOCTYPE html>     
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+      body
+      {
+        color: aliceblue;
+        background-color: rgba(14, 11, 11, 0.979);
+      }
+
+      .text
+      {  font-family: 'Source Code Pro', monospace;
+         padding-bottom: 30px;
+         text-align: left;
+         font-size: 15px;
+      }
+    </style>
+   
+</head>
+<body>  
+   
+    <h1>Contact Us</h1>
+    <div class="text">
+      Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
+    </div>
+    <form action="backend.py">
+     
+      <!-- Form Starts Here -->
+      <!-- Id is always unique for every element and Class is used to give common style in css to all elements belong to single class -->
+
+      <div id="mainbox" class="redBg blackBorder">
+        <label for="name">Name: </label> <input type = "text" name = "myName" id="name"> 
+     </div>
+     <br>
+     <div id="mainbox" class="redBg blackBorder">
+      <label for="subject">Subject: </label> <input type = "text" name = "mySubject" id="subject"> 
+   </div>
+     <br>
+     <div>
+      <label for="mail">email:</label> <input type="email" id="mail">
+     </div>
+     <br>
+     <div>
+      <label for="question">Do you want to work on project with Nikhil?</label> <input type = "checkbox" name="myEligibility" id="age"> 
+     </div>
+     <br>
+     <div>
+         Write about Message: <br> <textarea name="myText" cols="50" rows="8"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="Submit Form">
+          <input type="reset" value="Reset Form">
+        </div>
+        <br> 
+    </form>
+</body>
+</html>
