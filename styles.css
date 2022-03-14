@@ -18,12 +18,20 @@
 
  }  
 
- .name{
+  .name{
     text-align: left;
     font-size: 45px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
  }  
+
+ .surname
+ {
+   text-align: left;
+   font-size: 45px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   color: #04AA6D;
+ }
 
  .info{
     text-align: left;
