@@ -20,9 +20,40 @@
         {
            margin-left: 22px;
         }
+         .topnav {
+       overflow: hidden;
+       background-color: #333;
+     }
+     
+     .topnav a {
+       float: left;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 18px 20px;
+       text-decoration: none;
+       font-size: 17px;
+     }
+     
+     .topnav a:hover {
+       background-color: #ddd;
+       color: black;
+     }
+     
+     .topnav a.active {
+       background-color: #04AA6D;
+       color: white;
+     }
     </style>
 </head>
 <body>
+    <div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="contact.html" target="_blank">Contact</a>
+    <a href="asset/Nikhil_Thosar_CV.docx - Google Docs.pdf" target="_blank">Resume</a>
+    <a href="art.html" target="_blank">ArtGallery</a>
+    <a href="blog.html" target="_blank">Blog</a>
+    <a href="about.html">About</a>
+  </div>
     <h1>Contact Us</h1>
     <div class = "googleform">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGLvlHB1A0efIToRQA8dcKOyFAa32eE-50voLXLJTOITH9KQ/viewform?embedded=true" width="640" height="999" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
