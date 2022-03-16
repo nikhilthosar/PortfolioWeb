@@ -15,7 +15,7 @@
     }
     h1
     {
-        text-align: center;
+        text-align: left;
         color: #04AA6D;
         margin-left: 15px;
         font-size: 40px;
@@ -24,7 +24,7 @@
     }
     p
     {
-       text-align: center;
+       text-align: left;
     }
         
      .topnav {
@@ -50,6 +50,105 @@
        background-color: #04AA6D;
        color: white;
      }
+     #rightabout{
+         float: left;
+         width: 40%;
+     }
+
+     #skillset{
+        float: right;
+        width: 20%
+     }
+
+     .skillset{
+        width: 500px;
+        margin: 60px;
+        color: white;
+     }
+
+     .skillset li{
+         margin: 20px 0;
+         list-style-type: none;
+     }
+
+     .bar{
+         display: block;
+         background: black;
+         height: 2px;
+         border: 1px solid rgba(0,0,0,0,3);
+         border-radius: 3px;
+         overflow: hidden;
+         box-shadow: 0 0 10px rgb(94, 177, 91);
+     }
+
+     .bar span{
+         height: 2px;
+         float: left;
+         background: #04AA6D;
+     }
+     .cpp{
+         width: 90%;
+         animation: cpp 2s;
+     }
+
+     .html{
+         width: 60%;
+         animation: html 2s;
+     }
+     .css{
+         width: 40%;
+         animation: css 2s;
+     }
+     .javascript{
+         width: 30%;
+         animation: javascript 2s;
+     }
+     .sql{
+         width: 90%;
+         animation: sql 2s;
+     }
+
+     @keyframes cpp {
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 90%;
+         }
+     }
+     @keyframes html {
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 60%;
+         }
+     }
+     @keyframes css {
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 40%;
+         }
+     }
+     @keyframes javascript {
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 30%;
+         }
+     }
+
+     @keyframes sql {
+         0%{
+            width: 0%;
+         }
+         100%{
+            width: 90%;
+         }
+     }
     </style>
 </head>
 <body>
@@ -61,7 +160,20 @@
     <a href="blog.html">Blog</a>
     <a class="active" href="about.html">About</a>
   </div>
-    <h1>About Me</h1>
-    <p>Software Developer, 2 year experience as Assistant System Engineer in Tata Consultancy Services</p>
+    
+    <div id="rightabout">   
+        <h1>About Me</h1>
+        <p>Software Developer, 2 year experience as Assistant System Engineer in Tata Consultancy Services</p>
+      </div>
+      
+      <div class="skillset" id="skillset">
+          <h1>My Skills</h1>
+          <li><h3>C/C++</h3><span class="bar"><span class="cpp"></span></span></li>
+          <li><h3>HTML5</h3><span class="bar"><span class="html"></span></span></li>
+          <li><h3>CSS3</h3><span class="bar"><span class="css"></span></span></li>
+          <li><h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span></li>
+          <li><h3>SQL</h3><span class="bar"><span class="sql"></span></span></li>
+
+      </div>
 </body>
 </html>
