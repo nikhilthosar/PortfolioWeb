@@ -1,55 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nikhil Thosar Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap">   
-    <style>
 
-     @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@100&family=Source+Code+Pro:wght@200&display=swap');
- 
-     body {
-       margin: 0;
-       font-family: Arial, Helvetica, sans-serif;
-     }
-        
-     .button a img:hover {
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil Thosar Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@100&family=Source+Code+Pro:wght@200&display=swap');
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 18px 20px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    /* .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+     } */
+    .text {
+      padding-top: 200px;
+    }
+
+    .button {
+      padding: 0%;
+    }
+
+    .button a img:hover {
       background: #04AA6D;
       padding: 0%;
       cursor: pointer;
     }
-     
-     .topnav {
-       overflow: hidden;
-       background-color: #333;
-     }
-     
-     .topnav a {
-       float: left;
-       color: #f2f2f2;
-       text-align: center;
-       padding: 18px 20px;
-       text-decoration: none;
-       font-size: 17px;
-     }
-     
-     .topnav a:hover {
-       background-color: #ddd;
-       color: black;
-     }
-     
-     .topnav a.active {
-       background-color: #04AA6D;
-       color: white;
-     }
-     </style>      
+
+    .text {
+      margin-left: 20px;
+      margin-right: 20px;
+      justify-content: center;
+    }
+
+    #leftbox {
+      float: left;
+      width: 48%;
+      border: #04AA6D;
+      font-weight: 580;
+    }
+
+    #rightbox {
+      float: right;
+      width: 48%;
+      border: #04AA6D;
+      font-weight: 580;
+    }
+
+    /* .burger
+    {
+      position: absolute;
+      margin-right: 5px;
+      right: 15px;
+      top: 15px;
+      cursor: pointer;
+    }
+ 
+    .line{
+       width: 33px;
+       margin: 4px 4px;
+       background-color: white;
+       height: 4px 
+    } */
+  </style>
 </head>
+
 <body>
-    
+
   <div class="topnav">
     <a class="active" href="index.html">Home</a>
     <a href="contact.html">Contact</a>
@@ -58,20 +111,67 @@
     <a href="blog.html">Blog</a>
     <a href="about.html">About</a>
   </div>
- 
-   <div class = "main">
-     <div class= "devinfo">
-      <div class= "start">Hey, I'm</div>
-      <div> <span class="name">Nikhil </span> <span class = "surname">Thosar</span></div>  
-      <div class = "info">This is my platform to share about
-          <br> Software Development | Singing | Painting | Travelling</div> 
-          <br>
-      <div class = "media">Let's Connect</div>
-      <div class="button">
-        <a href='https://www.instagram.com/thenikhilthosar/' target="_blank"><img src="InstaIcon.png"></a>
-        <a href='https://www.linkedin.com/in/nikhil-thosar-17b457128/' target="_blank"><img src="LinkedInIcon.png"></a>
+
+  <!-- <div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div> -->
+
+  <div class="main">
+    <div class="devinfo">
+      <div class="start">Hey, I'm</div>
+      <div> <span class="name">Nikhil </span> <span class="surname">Thosar</span></div>
+      <div class="info">Welcome to my creative space for
+        <br> Software Development | Singing | Painting | Travelling
       </div>
-     </div>
-    </div> 
+      <br>
+      <br>
+      <br>
+      <div class="media">Let's Connect</div>
+      <div class="button">
+        <a href='https://www.instagram.com/thenikhilthosar/'><img src="InstaIcon.png"></a>
+        <a href='https://www.linkedin.com/in/nikhil-thosar-17b457128/'><img src="LinkedInIcon.png"></a>
+      </div>
+    </div>
+    <div class="text">
+      <img src="https://source.unsplash.com/random/1320x250/?coding" alt="Image">
+      <div id="leftbox">
+        <h2>Artificial Intelligence and Future</h2>
+        <p>Artificial intelligence (AI) is already a part of everyday life, from wearable health technology like smart
+          watches and voice assistants to self-driving cars and chat bots. And this trend is only expected to continue
+          growing. In fact, according to the Brookings Institution, in just over a decade, AI will outperform humans in
+          a variety of tasks, from writing essays to retail work. The future of AI will feature a shift of traditionally
+          human-driven operations to work performed by automated computers.
+
+          The predicted impact of artificial intelligence on people, business, and industry in coming years is profound,
+          and while some may worry about the dangers of over-automation, there are actually many positive social and
+          economic benefits to AI. If you’re considering a career in programming or other computer professions, you’ll
+          be in a position to use AI to potentially solve a variety of human problems across sectors, including
+          humanitarian crises, healthcare needs, and quality control in areas such as manufacturing or product
+          development.
+        </p>
+      </div>
+      <div id="rightbox">
+        <br>
+        <br>
+        <br>
+        <p>According to a PricewaterhouseCoopers survey, 20% of organizations plan to implement AI in their enterprise
+          in 2019. The implications of this trend are significant, as they imply that AI is no longer confined to
+          research or computer labs. Instead, AI will impact offices, hospitals, and consumer products. Machine
+          learning, biometrics, and prescriptive analytics are a few ways professionals apply AI in industrial settings,
+          business offices, and laboratories.
+
+          Businesses use machine learning — the ability of computer programs to refine their abilities based on pattern
+          recognition — to help interpret and analyze a vast amount of customer data. As the future of AI becomes more
+          accurate and efficient, companies use these insights to create more personalized content for their customers
+          and audiences. Additionally, AI can determine which marketing channels are performing best based on how
+          potential customers engage with content. Then, the AI can automatically allocate additional marketing dollars
+          to the most viable audiences.</p>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
